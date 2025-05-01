@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'BebasNeue-Regular';src: url(ARQUIVOS\ SITE/FONTES/BebasNeue-Regular.otf) format('otf');
+}
+
+:root {
+    --cor-primaria: #FFB300; /* amarelo-energia */
+    --cor-secundaria: #4CAF50; /* verde-economia */
+    --cor-fundo: #333; /* fundo escuro do menu e seções principais */
+    --cor-clara: #F1F8E9; /* fundo claro para contrastar */
+    --cor-texto: #ffffff;
+    --fonte-principal: 'Arial', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-clara);
+    color: #212121;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.header{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F1F8E9;
+    padding: 100px;
+    color: #F9A825;
+    text-align: center;
+}
+
+nav {
+    position: fixed; /* Fixa o menu no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    background-color: #333;
+    z-index: 1000; /* Garante que fique acima de tudo */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+    flex-wrap: wrap; /* Permite quebrar para a próxima linha se necessário */
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+main section{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    width: 100%; /* Ocupa toda a largura da tela */
+    overflow-x: hidden;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+
+  }
+  
+  
+  
