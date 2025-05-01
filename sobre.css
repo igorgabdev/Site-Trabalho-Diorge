@@ -1,0 +1,128 @@
+#sobre {
+    background-color: rgba(117, 197, 113, 0.745); /* Novo fundo mais escuro */
+    color: var(--cor-texto); /* Cor do texto */
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Fonte elegante */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 40px auto;
+    max-width: 1000px; /* Limite de largura */
+  }
+  
+  #sobre h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: var(--cor-primaria); /* Amarelo */
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  #sobre p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #sobre .creditos {
+    margin-top: 30px;
+  }
+  
+  #sobre .creditos h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--cor-secundaria); /* Verde */
+  }
+  
+  #sobre .creditos p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  
+  #sobre .instagram-links {
+    margin-top: 40px;
+    background-color: var(--cor-clara); /* Fundo claro para as redes sociais */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  #sobre .instagram-links h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: var(--cor-secundaria);
+  }
+  
+  #sobre .links {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra em dispositivos menores */
+    justify-content: center;
+    gap: 20px; /* Maior espaço entre os botões */
+    margin-top: 20px;
+  }
+  
+  .btn-instagram {
+    background-color: #E1306C; /* Cor do Instagram */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 30px; /* Bordas arredondadas */
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  .btn-instagram:hover {
+    background-color: #C13584; /* Cor de hover do Instagram */
+    transform: scale(1.05); /* Efeito de aumento */
+  }
+  
+  @media (max-width: 768px) {
+    #sobre {
+      padding: 40px 15px;
+    }
+  
+    #sobre h2 {
+      font-size: 2.2rem;
+    }
+  
+    #sobre p {
+      font-size: 1rem;
+    }
+  
+    #sobre .instagram-links h3 {
+      font-size: 1.5rem;
+    }
+  
+    .btn-instagram {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+
+  .btn-instagram {
+    background-color: #E1306C; /* Cor do Instagram */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 30px; /* Bordas arredondadas */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre ícone e texto */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  .btn-instagram i {
+    font-size: 20px; /* Tamanho do ícone */
+  }
+  
+  .btn-instagram:hover {
+    background-color: #C13584; /* Cor de hover do Instagram */
+    transform: scale(1.05); /* Efeito de aumento */
+  }
+  
