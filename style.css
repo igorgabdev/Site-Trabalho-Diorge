@@ -110,20 +110,30 @@ main {
 }
 
 main h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    
+
 }
 
 main h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 20px;
-    color: var(--cor-primaria);
+    color: var(--cor-texto);
 }
 
 main p {
     margin-bottom: 20px;
+    font-size: 1.2em;
 }
+img {
+    max-width: 80%;  /* Imagem ocupará no máximo 80% da largura do contêiner */
+    height: auto;    /* Mantém a proporção original da imagem */
+    display: block;  /* Remove o espaço abaixo da imagem */
+    margin: 20px auto; /* Centraliza a imagem e dá um espaço de 20px acima e abaixo */
+}
+
 
 /* Estilização do footer */
 footer {
