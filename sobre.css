@@ -125,4 +125,35 @@
     background-color: #C13584; /* Cor de hover do Instagram */
     transform: scale(1.05); /* Efeito de aumento */
   }
+
+  /* Estilo do botão "Voltar" */
+.btn-voltar {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 30px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block;
+    margin: 0 auto; /* Centraliza o botão */
+    margin-top: 20px; /* Espaço superior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: background-color 0.3s, transform 0.3s ease;
+    display: block; /* Garante que o link se comporte como um bloco */
+    width: fit-content; /* Ajusta o tamanho do botão ao conteúdo */
+  }
+  
+  /* Efeito de hover */
+  .btn-voltar:hover {
+    background-color: #388E3C; /* Cor de hover */
+    transform: scale(1.05); /* Efeito de aumento */
+  }
+  
+  /* Removendo o estilo do link */
+  a:focus, a:visited, a:hover {
+    text-decoration: none; /* Sem sublinhado e sem roxo */
+    color: inherit; /* Mantém a cor original do texto */
+  }
+  
   
